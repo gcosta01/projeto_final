@@ -35,6 +35,7 @@ export const Button = styled.button`
   width: 100%;
   cursor: pointer;
   margin-top: auto;
+  font-size: 14px;
 `
 
 export const Modal = styled.div`
