@@ -213,7 +213,7 @@ const Cart = () => {
             ))}
             <S.TotalPrice>
               <p>Valor Total:</p>
-              <span>R$ {parseToBrl(totalPrice(items))}</span>
+              <span>{parseToBrl(totalPrice(items))}</span>
             </S.TotalPrice>
             <Button onClick={goToDelivery}>Continuar com a entrega</Button>
           </>
